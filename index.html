@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>抽奖魔方</title>
+<link rel="icon" href="imgs/rand.png">
+<link href="star.css" rel="stylesheet" type="text/css">
+<link href="rand.css" rel="stylesheet" type="text/css">
+<link href="btn.css" rel="stylesheet" type="text/css">
+<script src = "jquery.min.js"> </script>
+<script src = "rand.js"> </script>
+</head>
+<body style="background-image:url('imgs/bg.jpeg')"class="login-wrap" onload="loadname()">
+ <div class="login-stars">
+ </div>
+ <div class="login-stars2">
+ </div>
+ <div class="login-stars3">
+ </div>
+	<input id="addname_input" onkeydown="keyd(event)" placeholder="人员姓名"></input>
+	<input id="rand_num" oninput = "value=value.replace(/[^\d]/g,'')" placeholder="抽奖人数"></input>
+	<div class="label1">抽奖名单</div>
+	<div class="label2">中奖名单</div>
+	<button class="button type2" id="btn_add" onclick="addname()">增加</button>
+	<button class="button type2" id="btn_clear" onclick="stclear()">清空名单</button>
+	<button class="button type2" id="btn_start" onclick="start()">开始</button>
+	<button class="button type2" id="btn_stop" onclick="stop()">停止</button>
+	<div id="namelist"></div>
+	<div id="process"></div>
+	<img id = "banner" src="imgs/choujiang.png"></img>
+</body>
+
+</html>

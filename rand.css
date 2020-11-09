@@ -1,0 +1,115 @@
+body{
+	color:white;
+}
+img:hover{
+	transition:all 0.3s ease;
+	transform:scale(1.05);
+}
+img:hover:before{
+	transform:scale(0.85);
+}
+img:hover:after{
+	transform:scale(0.85);
+}
+#addname_input{
+		position:absolute;
+		top:24px;
+		left:110px;
+		width:80px;
+		height:20px;
+}
+#rand_num{
+		position:absolute;
+		top:24px;
+		left:500px;
+		width:80px;
+		height:20px;
+}
+#btn_add{
+		position:absolute;
+		top:20px;
+		left:210px;
+		width:60px;
+		height:30px;
+}
+#btn_clear{
+		position:absolute;
+		top:20px;
+		left:280px;
+		width:60px;
+		height:30px;
+}
+
+#btn_start{
+		position:absolute;
+		top:20px;
+		width:60px;
+		left:600px;
+		height:30px;
+}
+#btn_stop{
+		position:absolute;
+		top:20px;
+		width:60px;
+		left:670px;
+		height:30px;
+}
+
+#namelist{
+		padding-top:10px;
+		box-shadow: 10px 10px 5px rgba(100,47,67,0.9);;
+		color:white;
+		background-color:rgba(100,47,67,0.6);
+		position:absolute;
+		top:85px;
+		left:110px;
+		height:600px;
+		width:230px;
+		overflow:auto;
+		font-size:15px;
+}
+
+#banner{
+		position:absolute;
+		top:85px;
+		left:860px;
+		width:500px;
+}
+
+#process{
+		box-shadow: 10px 10px 5px rgba(100,47,67,0.9);;
+		text-align:center;
+		font-size:40px;
+		position:absolute;
+		top:85px;
+		left:500px;
+		color:white;
+		width:230px;
+		height:600px;
+		background-color:rgba(100,47,67,0.6);
+		overflow:auto;
+}
+.label1{
+		text-align:center;
+		font-size:15px;
+		position:absolute;
+		top:60px;
+		left:110px;
+		color:white;
+		width:230px;
+		background-color:rgba(0,47,167,0.4);
+		font-weight:bold;
+}
+
+.label2{
+		text-align:center;
+		font-size:15px;
+		position:absolute;
+		top:60px;
+		left:500px;
+		color:white;
+		width:230px;
+		background-color:rgba(0,47,167,0.4);
+		font-weight:bold;
+}
+
